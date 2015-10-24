@@ -95,7 +95,7 @@ Coin.prototype.type = "coin";
 //
 function Enemy(pos, ch) {
   this.pos = pos;
-  this.size = new Vector(2.8, 1.5);
+  this.size = new Vector(2.0, 1.5);
   if (ch == "e") {
     // enemy movement side to side
     this.speed = new Vector(2, 0);

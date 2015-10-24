@@ -36,6 +36,6 @@ background-size: 30px 30px;
   background-image: url("assets/shinx.gif");
 }
 .won .player {
-  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+  box-shadow: -4px -7px 8px yellow, 4px -7px 8px yellow;
   
 }
