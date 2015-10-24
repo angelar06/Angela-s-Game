@@ -78,7 +78,7 @@ Vector.prototype.times = function(factor) {
 // A Player has a size, speed and position.
 function Player(pos) {
   this.pos = pos.plus(new Vector(0, -0.5));
-  this.size = new Vector(1.8, 1.5);
+  this.size = new Vector(1.4, 1.5);
   this.speed = new Vector(0, 0);
 }
 Player.prototype.type = "player";
