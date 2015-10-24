@@ -1,0 +1,41 @@
+.background    { background-image: url("assets/background2.jpg");
+			           
+              
+   				       background-size: contain;
+    			       border: 1px solid red;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(0,255,255); }
+.wall          { background-image: url("assets/grass.png");   }
+.power {background-image:url("assets/power.gif");
+	background-repeat: no-repeat;
+}
+.actor  { position: absolute;  }
+.coin   { background-image: url("assets/coin.gif"); }
+.key {
+  background-image: url("assets/key.gif");}
+.player { background: url('assets/shinx.gif');
+background-position:center;
+background-repeat: no-repeat;
+background-size: 30px 40px;
+}
+.enemy{background-image: url("assets/fairy.gif");
+background -position: center;
+background-repeat: no-repeat;
+background-size: 30px 30px;
+}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url("assets/shinx.gif");
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+  
+}
